@@ -1,0 +1,59 @@
+{
+    "questions": {
+        "question1": [
+            {
+                "text": "Qui est le meilleur joueur de tennis ?",
+                "options" : {
+                    "option1": ["Leonardo DiCaprio", false],
+                    "option2": ["Rafael Nadal", true],
+                    "option3": ["Michael Jordan", false]
+                }
+                   
+            }
+        ],
+        "question2": [
+            {
+                "text": "Quel est la capitale de la France ?",
+                "options" : {
+                    "option1": ["Paris", false],
+                    "option2": ["Monaco", false],
+                    "option3": ["Jordanie", true]
+                }
+                   
+            }
+        ],
+        "question3": [
+            {
+                "text": "Quel est la capitale de la France2 ?",
+                "options" : {
+                    "option1": ["Paris2", false],
+                    "option2": ["fc", true],
+                    "option3": ["dfg", false]
+                }
+                   
+            }
+        ],
+        "question4": [
+            {
+                "text": "Comment s'appelle Michael Jackson",
+                "options" : {
+                    "option1": ["SART", false],
+                    "option2": ["Fabil", false],
+                    "option3": ["Syte", true]
+                }
+                   
+            }
+        ],
+        "question5": [
+            {
+                "text": "Combien vaut 2+2",
+                "options" : {
+                    "option1": ["4", false],
+                    "option2": ["2", false],
+                    "option3": ["10", true]
+                }
+                   
+            }
+        ]
+    }
+}
