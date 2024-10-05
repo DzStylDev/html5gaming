@@ -489,6 +489,7 @@ function checkCollision(character) {
 
                     if(boxs[index].reponse === correctAnwser[0][0]){
                         currentIndex++;
+                        score++;
                         currentQuestion = objectQuestion[`question${currentIndex}`][0].text  
                         updateText(scene, font, character, currentQuestion)
                         updateOptions(objectQuestion[`question${currentIndex}`][0].options)
@@ -498,12 +499,6 @@ function checkCollision(character) {
                 }
               
             }
-            
-            // if(correctAnwser[0][0] === "Rafael Nadal"){
-            //     boxs[index].stand.material = new THREE.MeshBasicMaterial({ color: "green" }); 
-            // }elseif(correctAnwser[0][0] === "Leonardo DiCaprio"){ 
-            //     boxs[index].stand.material = new THREE.MeshBasicMaterial({ color: "red" }); 
-            // }
         }
     })
 
